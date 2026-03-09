@@ -1,0 +1,44 @@
+[project]
+name = "osgm15"
+version = "0.1.0"
+description = "Read and interpolate OSGM15 geoid-separation grids (ASCII GTX format)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Phillip Aarestrup", email = "phillipstrup@gmail.com" },
+]
+keywords = ["geoid", "osgm15", "gtx", "geodesy", "ordnance-survey", "geoid-separation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Typing :: Typed",
+]
+dependencies = [
+    "numpy>=1.22",
+]
+
+[project.urls]
+Homepage = "https://github.com/phillipaarestrup/osgm15"
+Repository = "https://github.com/phillipaarestrup/osgm15"
+Issues = "https://github.com/phillipaarestrup/osgm15/issues"
+
+[dependency-groups]
+dev = [
+    "pytest>=7",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.27,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
