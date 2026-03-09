@@ -45,7 +45,7 @@ N_arr = grid.height_N_array(lats, lons)  # points outside grid → NaN
 The OSGM15 ASCII GTX file is published by Ordnance Survey and can be
 downloaded from:
 
-<https://www.ordnancesurvey.co.uk/documents/resources/OSGM15-GTX-ASCII.zip>
+<https://www.ordnancesurvey.co.uk/geodesy-positioning/coordinate-transformations/resources>
 
 ## API
 
@@ -74,6 +74,9 @@ uv sync
 # Run tests
 uv run pytest
 ```
+
+## Example projects
+TBA
 
 ## License
 
