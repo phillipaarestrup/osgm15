@@ -1,5 +1,7 @@
 # osgm15
 
+A Python package that can be used to get the vertical reference for the UK.
+
 Read and interpolate **OSGM15** geoid-separation grids from ASCII GTX files.
 
 OSGM15 is the Ordnance Survey's geoid model for Great Britain, Ireland, and
